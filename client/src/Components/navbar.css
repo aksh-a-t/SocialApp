@@ -1,0 +1,10 @@
+@media (max-width:450px) {
+    .hiddenNav{
+        display: none;
+    }
+    
+}
+.navLink{
+    text-decoration:none;
+    color:white;
+}

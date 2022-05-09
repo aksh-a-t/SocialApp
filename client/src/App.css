@@ -1,0 +1,67 @@
+.constantMargin{
+  padding-left: 15vw;
+  padding-right:10vw;
+}
+.pageback{
+  background-color: rgb(232, 240, 254);
+}
+body{
+  background-color: #f0f7f7;
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  font-weight: 300;
+}
+.App{
+  margin-top: 75px;
+}
+#homepage-cont {
+  background-image: url("./Components/SubComponents/capstone_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -75px;
+  color: white;
+}
+.homepage-back-overlay {
+  position: absolute;
+  background-color: #383636b3;
+  width: -webkit-fill-available;
+  height: inherit;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main-Heading{
+  font-size:70px;
+  text-align: center;
+}
+#subHeading{
+  margin-top: 5px;
+  font-size:x-large;
+  text-align: center;
+}
+@media (max-width:855px) {
+  #main-Heading{
+    font-size:50px;
+  }
+  #subHeading{
+    font-size: large;
+  }
+}
+@media (max-width:650px) {
+  #main-Heading{
+    font-size:xx-large;
+  }
+}
+@media (max-width:350px) {
+  #main-Heading{
+    font-size:x-large;
+  }
+  #subHeading{
+    font-size:medium;
+  }
+}
